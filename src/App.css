@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+}
+.App {
+  text-align: center;
+}
+h1 {
+  color: white;
+}
+.question-card,
+.final-result {
+  background-color: cyan;
+  padding: 16px;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 16px;
+  color: black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px -12px, rgba(0, 0, 0, 0.3) 0px,
+    18px, 36px, -18px;
+  margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+  width: 95%;
+  margin: 0;
+  padding: 20px;
+}
+
+li {
+  background-color: black;
+  padding: 16px;
+  border: 3px solid darkblue;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 8px;
+  color: white;
+}
+
+.question-text {
+  color: navy;
+  font-size: 30px;
+}
+
+.result-score {
+  font-size: 80px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+td {
+  border: 1px solid darkcyan;
+  text-align: left;
+  padding: 8px;
+  color: white;
+  text-align: center;
+}
+
+th {
+  border: 1px solid darkcyan;
+  text-align: left;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: darkblue;
+}
+
+tr:nth-child(odd) {
+  background-color: darkorchid;
+}
+
+.delete-button {
+  background-color: red;
+  border-radius: 30px;
+}
