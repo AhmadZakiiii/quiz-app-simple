@@ -106,7 +106,7 @@ function App() {
       ],
     },
   ];
-  function shuffleArray(questions) {
+  function shuffleArray() {
     questions.sort(() => Math.floor(Math.random() - 0.5));
   }
   return (
